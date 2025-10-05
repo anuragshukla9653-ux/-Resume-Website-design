@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    height: 100vh;
+    background: #dcded2;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8vh 0vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    color: white;
+    background: #1e2941;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+header h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+header p{
+    font-size: 1.2rem;
+    color: #d1d1d1;
+}
+
+section{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 30vh;
+    width: 80vw;
+    display: flex;
+    padding : 9vh 4vh;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+}
+
+#about{
+    margin: 5vh;
+}
+
+p{
+    color: #413c3c;
+    line-height: 1.6;
+    text-align: center;
+}
+#education {
+    margin: 5vh;
+    background: #546464;
+}
+
+
+div{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    font-size: 14px;
+    margin: 4px;
+    background: #f8faff;
+    border-radius: 6px;
+}
+
+#skills{
+    margin: 5vh;
+    background: #a6d8d8;
+}   
+
+#projects{
+    margin: 5vh;
+    background: #f7c59f;
+}
+
+#contact{
+    margin: 5vh;
+    background: #f7a1a1;
+}
+
+#footer{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background: #ffffffd4;
+    color: #1e2941;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -5px 10px rgba(0,0,0,0.1);
+}
